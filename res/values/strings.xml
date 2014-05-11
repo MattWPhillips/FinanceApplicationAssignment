@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinanceApplicationAssignment</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Img_Goals">Image of Goals</string>
+    <string name="bOptionsLbl">Options</string>
+    <string name="Img_QuickPay">Image of $</string>
+    <string name="Img_PayDay">Image of Money in Envelope</string>
+    <string name="Img_Accounts">Image of 4 piggy banks</string>
+    <string name="payLabel">Income</string>
+    <string name="expenseLabel">Expense</string>
+    <string name="etValueHint">$ Amount</string>
+    <string name="bSubmitLabel">SUBMIT</string>
+	<string name="bGetGPSLabel">Get GPS position</string>
+	<string name="bBackLbl">Back</string>
+	<string name="bAddLbl">Add</string>
+
+</resources>

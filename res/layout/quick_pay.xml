@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/QuickPayView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RadioGroup
+        android:id="@+id/rgPayExpense"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+        <RadioButton
+            android:id="@+id/rPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="@string/payLabel" />
+
+        <RadioButton
+            android:id="@+id/rExpense"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/expenseLabel" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/sExpenseGoal"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_weight="0.36" />
+
+    <EditText
+        android:id="@+id/etValue"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/etValueHint" />
+	
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+    
+		   <Button
+		       android:id="@+id/bGetGPS"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content"
+		       android:text="@string/bGetGPSLabel" />
+
+		   <TextView
+		       android:id="@+id/tvGPScoOrd"
+		       android:layout_width="wrap_content"
+		       android:layout_height="wrap_content" />
+	
+	</LinearLayout>
+    
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/bSubmitLabel" />
+
+</LinearLayout>
